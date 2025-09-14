@@ -52,7 +52,7 @@ It provides a responsive layout and clean design to showcase fashion products pr
 ## 🌐 Live Demo
 
 Want to see the project in action?  
-👉 [Click here to view the live website on Netlify](https://strong-snickerdoodle-d5167a.netlify.app/)
+👉 [Click here to view the live website on Netlify](https://teal-bublanina-b34f3a.netlify.app/)
 
 
 
