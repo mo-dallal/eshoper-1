@@ -21,6 +21,8 @@
 
 		<!-- Bootstrap 5.3 Bundle JS -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+		<!-- Custom JavaScript -->
+		<script src="./assets/js/main.js"></script>
 	</head>
 
 	<body>
@@ -146,40 +148,96 @@
 							</div>
 						</div>
 					</nav>
-					<div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-						<div class="carousel-inner">
-							<div class="carousel-item active" style="height: 410px;">
-								<img class="img-fluid" src="./assets/img/carousel-1.jpg" alt="Image" />
-								<div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-									<div class="p-3" style="max-width: 700px;">
-										<h4 class="text-light text-uppercase fw-medium mb-3">10% Off Your First Order</h4>
-										<h3 class="display-4 text-white fw-semibold mb-4">Fashionable Dress</h3>
-										<a href="#" class="btn btn-light py-2 px-3">Shop Now</a>
+					<div class="hero-carousel-container">
+						<div class="hero-carousel" id="heroCarousel">
+							<div class="carousel-track">
+								<div class="carousel-slide active">
+									<div class="slide-bg" style="background-image: url('./assets/img/carousel-1.jpg');"></div>
+									<div class="slide-overlay"></div>
+									<div class="slide-content">
+										<div class="container">
+											<div class="row justify-content-center">
+												<div class="col-lg-8 text-center">
+													<div class="slide-text">
+														<span class="slide-badge">10% Off Your First Order</span>
+														<h1 class="slide-title">Fashionable Dress</h1>
+														<p class="slide-description">Discover our latest collection of trendy and comfortable dresses</p>
+														<a href="shop.html" class="slide-btn">
+															<span>Shop Now</span>
+															<i class="fas fa-arrow-right"></i>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="carousel-slide">
+									<div class="slide-bg" style="background-image: url('./assets/img/carousel-2.jpg');"></div>
+									<div class="slide-overlay"></div>
+									<div class="slide-content">
+										<div class="container">
+											<div class="row justify-content-center">
+												<div class="col-lg-8 text-center">
+													<div class="slide-text">
+														<span class="slide-badge">Best Quality</span>
+														<h1 class="slide-title">Reasonable Price</h1>
+														<p class="slide-description">High-quality fashion at affordable prices for everyone</p>
+														<a href="shop.html" class="slide-btn">
+															<span>Explore Collection</span>
+															<i class="fas fa-arrow-right"></i>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="carousel-slide">
+									<div class="slide-bg" style="background-image: url('./assets/img/carousel-1.jpg');"></div>
+									<div class="slide-overlay"></div>
+									<div class="slide-content">
+										<div class="container">
+											<div class="row justify-content-center">
+												<div class="col-lg-8 text-center">
+													<div class="slide-text">
+														<span class="slide-badge">New Arrivals</span>
+														<h1 class="slide-title">Summer Collection</h1>
+														<p class="slide-description">Fresh styles for the warm season ahead</p>
+														<a href="shop.html" class="slide-btn">
+															<span>View Collection</span>
+															<i class="fas fa-arrow-right"></i>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="carousel-item" style="height: 410px;">
-								<img class="img-fluid" src="./assets/img/carousel-2.jpg" alt="Image" />
-								<div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-									<div class="p-3" style="max-width: 700px;">
-										<h4 class="text-light text-uppercase fw-medium mb-3">10% Off Your First Order</h4>
-										<h3 class="display-4 text-white fw-semibold mb-4">Reasonable Price</h3>
-										<a href="#" class="btn btn-light py-2 px-3">Shop Now</a>
-									</div>
-								</div>
+							
+							<!-- Navigation Arrows -->
+							<button class="carousel-nav carousel-prev" aria-label="Previous slide">
+								<i class="fas fa-chevron-left"></i>
+							</button>
+							<button class="carousel-nav carousel-next" aria-label="Next slide">
+								<i class="fas fa-chevron-right"></i>
+							</button>
+							
+							<!-- Indicators -->
+							<div class="carousel-indicators">
+								<button class="indicator active" data-slide="0" aria-label="Go to slide 1"></button>
+								<button class="indicator" data-slide="1" aria-label="Go to slide 2"></button>
+								<button class="indicator" data-slide="2" aria-label="Go to slide 3"></button>
+							</div>
+							
+							<!-- Progress Bar -->
+							<div class="carousel-progress">
+								<div class="progress-bar"></div>
 							</div>
 						</div>
-
-						<!-- Controls (updated for Bootstrap 5) -->
-						<button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Previous</span>
-						</button>
-
-						<button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Next</span>
-						</button>
 					</div>
 				</div>
 			</div>
@@ -704,7 +762,7 @@
 
 		<!-- Back to Top -->
 		<a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
-        <!-- Bootstrap 5.3 Bundle JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Custom JavaScript -->
+        <script src="./assets/js/main.js"></script>
 	</body>
 </html>
