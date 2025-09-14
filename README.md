@@ -47,7 +47,16 @@ It provides a responsive layout and clean design to showcase fashion products pr
 3. Open `index.html` in your browser.
 
 ---
+---
 
+## 🌐 Live Demo
+
+Want to see the project in action?  
+👉 [Click here to view the live website on Netlify](https://strong-snickerdoodle-d5167a.netlify.app/)
+
+
+
+ 
 ## ✍️ Author
 
 Made with ❤️ by **Mostafa Dallal**
